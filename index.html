@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="description" content="Menu uppgift">
+  <meta name="author" content="Gosia Abbe Alex Padram">
+  <title>GAAP Airlines</title>
+
+  <script src="https://kit.fontawesome.com/3318035e44.js"></script>
+  
+  <!-- CSS -->  
+  <link href="style.css" rel="stylesheet">  
+</head>
+    
+<body>
+<div class="topnav">
+  <a href="#home" class="active">GAAP Airlines</a>
+  <div id="myLinks">
+    <a href="images/plantravel.html">Plan Travel</a>
+    <a href="images/flywithus.html">Fly with us</a>
+    <a href="#travelinformation">Travel Information</a>
+    <a href="#businesstravelclub">Business Travel Club</a>
+    <a href="#login">Login / Sign up</a> 
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="menunav"> 
+  <a href="index.html">GAAP Airlines</a>
+  <a href="plantravel.html">Plan Travel</a>
+  <a href="flywithus.html">Fly with us</a>
+  <a href="#travelinformation">Travel Information</a>
+  <a href="#businesstravelclub">Business Travel Club</a>
+  <div class="menunav-right">
+    <a href="#login">Login / Sign up</a> 
+	<a href="#language">EN <i class="fas fa-chevron-down"></i></a>
+  </div>  
+</div>
+
+<div class="main">
+
+  <div class="logo">
+    <img src="images/logo1.png" alt="logo GAAP Airlines" class="responsive" />
+  </div>
+
+<center>
+  <h2>Welcome to GAAP Airlines</h2>
+  <h3>Where would you like to go?</h3>
+  
+<div class="wrapper">
+	<div class="form">
+		<div class="fields">				
+            <label>From</label>
+            <input type="text" class="input" name="from_where" placeholder="From">
+            <label>To</label>
+            <input type="text" class="input" name="from_where" placeholder="To">
+            <label>Departure date</label>
+            <input type="date" class="input" name="from_where">
+            <label>Return date</label>
+            <input type="date" class="input" name="from_where">
+        </div>
+        <div class="fields">
+            <label class="label1">Adults</label>
+            <input type="number" class="input" name="number" value="1">
+            <label class="label2">Children (2 to 11 years)</label>
+            <input type="number" class="input" name="number" value="0">
+            <label class="label3">Infants (up to 2 years)</label>
+            <input type="number" class="input" name="number" value="0">
+            <label>Travel class / ticket</label>
+                <select name="travelClass" class="input">
+                    <option value="economy">Economy</option>
+                    <option value="economy">Premium Economy</option>
+                    <option value="economy">Business</option>
+                    <option value="economy">First</option>
+                    <option value="economy">Economy (one way)</option>
+                    <option value="economy">Premium Economy (one way)</option>
+                    <option value="economy">Business (one way)</option>
+                    <option value="economy">First (one way)</option>
+                </select>				
+	   </div>	
+	</div>
+	<div class="btn">Search flights</div>
+</div>  
+  
+  <p><img src="images/traveldestinations1.png" alt="travel destinations" class="responsive" /></p>
+ 
+</center>
+
+</div>
+
+<div class="footer">
+
+  <a href="#companyoverwiew">Company Overview</a>
+  <a href="#media">Media</a>
+  <a href="#careers">Careers</a>
+  <a href="#support">Support</a>
+  <a href="contactus.html">Contact us</a>
+
+  <div class="social-media">
+    <a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://www.instagram.com/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com/" target="_blank" class="twitter"><i class="fab fa-twitter-square"></i></a>
+    <a href="https://www.youtube.com/" target="_blank" class="youtube"><i class="fab fa-youtube-square"></i></a>
+  </div>
+
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
