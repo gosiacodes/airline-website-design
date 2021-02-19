@@ -1,213 +1,106 @@
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-image: url("images/viewonearth.jpg");
-  background-attachment: fixed;
-  background-color: #f7f7f7;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/viewonearth.jpg");
+    background-attachment: fixed;
+    background-color: #f7f7f7;
 }
 
 p, h2, h3 {
-  color: #ffffff;
-  }
-
-.menunav {
-  position: relative;
-  overflow: hidden;
-  background-color: #45b7c7;
-  top: 0;
-  width: 100%;
+    color: #ffffff;
 }
 
-.menunav a {
-  float: left;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+h1 {
+	position: top: 90px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #67a3ff;
+	color: white;
 }
 
-.menunav a:hover {
-  background-color: white;
-  opacity: 0.7;
-  color: #000000; 
-}
-
-.menunav-right {
-  float: right;
-}
-
-i.fas {
- color: black;
-}
-
+/* Menu mobile devices */
 .topnav {
-  display: none;
-  overflow: hidden;
-  background-color: #45b7c7;
-  position: relative;
+    display: none;
+    overflow: hidden;
+    background-color: #45b7c7;
+    position: relative;
 }
 
 .topnav #myLinks {
-  display: none;
+    display: none;
 }
 
 .topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
 }
 
 .topnav a.icon {
-  background: white;
-  color: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+    background: white;
+    color: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .topnav a:hover {
-  background-color: white;
-  color: black;
+    background-color: white;
+    color: black;
 }
 
-.active {
-  background-color: #45b7c7;
-  color: white;
+/* Menu html page */
+.menunav {
+    position: relative;
+    overflow: hidden;
+    background-color: #45b7c7;
+    top: 0;
+    width: 100%;
 }
 
+.menunav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menunav a:hover {
+    background-color: white;
+    opacity: 0.7;
+    color: #000000; 
+}
+
+.menunav-right {
+    float: right;
+}
+
+/* Main class classes */ 
 .main {
-  padding:0 16px;
-  margin-top: 30px;
-  margin-bottom: 70px;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav{
-	display:block;
-  }
-  .menunav{
-	display:none;
-  }
-  .menunav a, .menunav-right, .footer a, .social-media {
-    float: none;
-    display: block;
-  }
+    padding:0 16px;
+    margin-top: 30px;
+    margin-bottom: 70px;
 }
 
 .responsive {
-  max-width: 100%;
-  height: auto;
-  }
-
-.footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #45b7c7;
-  color: white;
-  text-align: center;
-  display: block;
-  overflow: hidden;
+    max-width: 100%;
+    height: auto;
 }
 
-.footer a {
-  float: left;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 12px;
-}
-
-.footer a:hover {
-  color: #000000; 
-}
-
-.social-media {
-  position: relative;
-  float:right;
-}
-
-.social-media a {
-  text-align: center;
-  font-size: 20px;
-  padding: 5px;
-  color: white;
-  margin: 5px 2px;
-  display: block;
-  border-style: solid;
-  border-color: white;
-  border-width: 1px;
-}
-
-.social-media a:hover {
-  #opacity: 0.7;
-  color: black;
-}
-
-.facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.instagram {
-  background: #d50061;
-  color: white;
-}
-
-.twitter {
-  background: #55ACEE;
-  color: white;
-  }
-
-.youtube {
-  background: #bb0000;
-  color: white;
+.active {
+    background-color: #45b7c7;
+    color: white;
 }
 
 .logo {
-  position: relative;
+    position: relative;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  padding: 5px;
-  width: 33.33%;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.container {
-  position: relative;
-  max-width: 1000px;
-}
-
-.image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.image:hover  {
-  opacity: 0.7;
-}
-
+/* Booking form classes */
 .wrapper {
 	position: ;
 	top:50%;
@@ -224,7 +117,6 @@ i.fas {
 	border-radius: 5px;
 	display: flex;
 	box-shadow: 0 0 10px rbga(0,0,0,0,4);
-	
 }
 
 .fields {
@@ -237,14 +129,14 @@ i.fas {
 	margin: 15px;
 	
 }
-.fields .input,
-.msg {
+.fields, .input, .msg {
 	text-align: center;
 	margin: 10px 0;
 	border: 0;
 	border-radius: 5px;
 }
-.btn{
+
+.btn {
 	background: #39b7dd;
 	text-align: center;
 	padding: 5px;
@@ -252,28 +144,122 @@ i.fas {
 	color: #fff;
 	cursor: pointer;
 	text-transform: uppercase;
-	   width:  150px;
-        position: relative;
+    width:  150px;
+    position: relative;
     bottom: 39px;
 }
 
-@media screen and (max-width: 509px) {
-	.form {
-		display: block;	
-}}
-@media screen and (max-width: 377px) {
-	.fields, .msg {
-		
-    width: 80%;
-	}
+/* Footer classes */
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #45b7c7;
+    color: white;
+    text-align: center;
+    display: block;
+    overflow: hidden;
 }
 
-h1 {
-	position: top: 90px;
-	padding-bottom: 10px;
-	border-bottom: 3px solid #67a3ff;
-	color: white;
+.footer a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
 }
+
+.footer a:hover {
+    color: #000000; 
+}
+
+.social-media {
+    position: relative;
+    float:right;
+}
+
+.social-media a {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    margin: 5px 2px;
+    display: block;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.social-media a:hover {
+    opacity: 0.7;
+    color: black;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.instagram {
+    background: #d50061;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
+
+/* Images classes */
+.container {
+    position: relative;
+    max-width: 1000px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    padding: 5px;
+    width: 33.33%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image:hover  {
+    opacity: 0.7;
+}
+
+/* Text classes */
+.title {
+	color: #fff;
+}
+
+.text-background {
+    background: rgba(0,0,0,.2);
+    max-width: 1024px;
+    padding: 30px;
+}
+
+/* Contact classes */
 .container2 {
 	width: 350px;
 	display:block;
@@ -282,6 +268,7 @@ h1 {
 	margin-right: auto;
     background: rgba(0,0,0,.3);
 }
+
 .card{
 	position: relative;
 	padding: 15px;
@@ -289,8 +276,8 @@ h1 {
 	height: auto;
 	box-sizing: border-box;
 	transition: 0.5s;
-
 }
+
 .card span{
 	position: relative;
 	top: -5px;
@@ -301,37 +288,61 @@ h1 {
 	border-radius: 10px;
 	transition: 0.5
 }
+
 .card:hover {
 	background: rgba(69, 183, 199, 0.4);
 	box-shadow: 0 5px 5px rgba(69, 183, 199, 0.4);
 	transition: 0.5s;
 }
+
 .card .fa {
 	font-size: 40px;
     color: white;
 }
 .card h3 {
 	font-size: 20px;
-
 }
 
 .card p {
 	font-size: 17px;
-
 }
 
-.g123{
-    background: rgba(0,0,0,.2);
-    max-width: 1024px;
-    padding: 30px;
+/* Media css */
+@media screen and (max-width: 509px) {
+	.form {
+		display: block;	
+    }
 }
-.f155{
-	color: #fff;
+
+@media screen and (max-width: 377px) {
+	.fields, .msg {	
+        width: 80%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+    .topnav {
+	   display:block;
+    }
+    .menunav {
+	   display:none;
+    }
+    .menunav a, .menunav-right, .footer a, .social-media {
+       float: none;
+       display: block;
+  }
+}
+
+/* Other */
+i.fas {
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 #g88{
-	
 	position: relative;
-	top: 75px;
-	
+	top: 75px;	
 }
