@@ -126,10 +126,11 @@ h1 {
 
 .fields, .msg {
 	width: 53%;
-	margin: 15px;
-	
+	margin: 15px;	
 }
-.fields, .input, .msg {
+
+.fields .input,
+.msg {
 	text-align: center;
 	margin: 10px 0;
 	border: 0;
@@ -342,7 +343,7 @@ i.fas {
     box-sizing: border-box;
 }
 
-#g88{
+#g88 {
 	position: relative;
 	top: 75px;	
 }
