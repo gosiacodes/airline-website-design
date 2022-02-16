@@ -1,5 +1,6 @@
 # airline-website-design
-Group project "GAAP Airlines" at HTML5 & CSS course (2019)
-author: Gosia, Abbe, Alex, Pedram
+"GAAP Airlines" - airline website design - group project at HTML5 & CSS3 course (2019)
 
-https://margareta75.github.io/HTML-Kravspec/index.html
+authors: Gosia, Abbe, Alex, Pedram
+
+https://margareta75.github.io/airline-website-design/
