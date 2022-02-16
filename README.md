@@ -1,4 +1,4 @@
-# HTML-Kravspec
+# airline-website-design
 Group project "GAAP Airlines" at HTML5 & CSS course (2019)
 author: Gosia, Abbe, Alex, Pedram
 
