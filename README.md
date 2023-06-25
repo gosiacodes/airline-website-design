@@ -3,4 +3,4 @@
 
 authors: Gosia, Abbe, Alex, Pedram
 
-https://margareta75.github.io/airline-website-design/
+https://gosiacodes.github.io/airline-website-design/
